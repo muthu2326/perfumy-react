@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.header h1 {
+    margin-left: 2%;
+}
+li, h1, ul {
+    display: inline;
+}
+
+ul {
+    margin-left: 60%;
+}
+
+li {
+    color: grey;
+    cursor: pointer;
+}
+
+li:hover {
+    color: white;
+}
+
+.searchbar {
+    padding: 50px 50px 20px 50px;
+    text-align: center;
+}
+input {
+    width: 60%;
+    padding: 15px;
+}
+
+.products {
+    margin: 0px 50px 20px 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.products h1 {
+    display: block;
+    margin: 00px 20px 20px 20px;
+}
+.card {
+    border: 2px solid grey;
+    width: 221px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card img {
+    border-radius: 3px;
+}
+
+.card:hover {
+    background-color: black;
+    color: white;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us p {
+    padding: 15px;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.contact h3 {
+    padding: 10px;
+    display: block;
+}
